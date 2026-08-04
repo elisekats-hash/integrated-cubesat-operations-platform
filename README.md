@@ -131,9 +131,9 @@ Telemetry and correction messages are transmitted using JSON formatted packets.
 Example telemetry packet:
 ```json
 {
-  “packet_type” : “telemetry”,
+  "packet_type" : "telemetry",
   
-  “packet_num”: 0, 
+  "packet_num": 0, 
   
   "timestamp": 0, 
   
