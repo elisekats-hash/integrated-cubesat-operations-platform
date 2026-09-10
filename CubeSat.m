@@ -1,6 +1,11 @@
 % === COMBINED DATA SIMULATION ===
 function telemetry = CubeSat(correction) 
 
+
+% Author: David Ntwali, Elise Katsube
+ % Date: 07-Sep-2026
+
+
 persistent packet_num
 
 % ================= INITIALIZATION =================
