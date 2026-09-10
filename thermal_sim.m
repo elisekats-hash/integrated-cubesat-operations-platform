@@ -1,6 +1,11 @@
 % === PARAMETER 3: THERMAL CONTROL SYSTEM (TCS) ===
 function thermal = thermal_sim(correction)
 
+
+% Author: David Ntwali, Elise Katsube
+% Date: 07-Sep-2026
+
+
 persistent T_kelvin sim_time
 
 if nargin < 1
