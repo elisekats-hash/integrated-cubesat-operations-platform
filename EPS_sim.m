@@ -1,6 +1,11 @@
 % === PARAMETER 2: ELECTRICAL POWER SYSTEM (EPS) ===
 function eps = EPS_sim(correction)
 
+
+% Author: David Ntwali, Elise Katsube
+% Date: 07-Sep-2026
+
+
 persistent sim_time current_charge_wh
 
 if nargin < 1
