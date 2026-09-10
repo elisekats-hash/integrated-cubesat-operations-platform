@@ -1,6 +1,10 @@
 % === PARAMETER 1: KINEMATICS & ORBITAL POSITION ===
 function position = position_sim(attitude_corr, orbit_corr)
 
+
+% Author: David Ntwali, Elise Katsube
+% Date: 07-Sep-2026
+
 persistent X Y Z vx vy vz sim_time roll pitch yaw disturbance_applied
 
 % ============================================================
